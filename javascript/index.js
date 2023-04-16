@@ -54,9 +54,7 @@ getInstruction(0, (step1) => {
           getInstruction(5, () => {
             const mashedPotatoesReady = document.createElement("li");
             mashedPotatoesReady.textContent = "Mashed potatoes are ready!";
-            console.log(mashedPotatoesReady);
             elementToUpdate.appendChild(mashedPotatoesReady);
-            console.log(getInstruction);
           }, (error) => console.log(error), elementToUpdate);
         }, (error) => console.log(error), elementToUpdate);
       }, (error) => console.log(error), elementToUpdate);
